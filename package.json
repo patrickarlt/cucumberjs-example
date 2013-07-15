@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "wd": "0.0.32",
+    "cucumber": "git://github.com/atrniv/cucumber-js.git#master",
+    "grunt": "~0.4.1",
+    "grunt-cucumber": "~0.2.1"
+  }
+}
