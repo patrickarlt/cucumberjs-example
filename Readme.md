@@ -1,4 +1,8 @@
-# Install
+# Cucumber.js with PhantomJS
+
+A quick example showing how to use Cucumber.js with PhantomJS.
+
+## Install
 1. `brew install phantomjs` - install phantomjs
 2. `npm install -g grunt-cli` - install grunt command line tools
 3. `npm install` - install dependencies
