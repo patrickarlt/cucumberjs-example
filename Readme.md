@@ -9,8 +9,21 @@ A quick example showing how to use Cucumber.js with PhantomJS.
 4. `phantomjs --webdriver=4444` - start phantom
 5. in another terminal window use `grunt` to run tests
 
+## Links
+
+* [Cucumber Feature Syntax](https://github.com/cucumber/cucumber/wiki/Gherkin)
+* [Feature Introduction](https://github.com/cucumber/cucumber/wiki/Feature-Introduction)
+* [Scenario-Outlines](https://github.com/cucumber/cucumber/wiki/Scenario-Outlines)
+* [Backgrounds](https://github.com/cucumber/cucumber/wiki/Background)
+* [Given/When/Then Syntax](https://github.com/cucumber/cucumber/wiki/Given-When-Then)
+* [WebDriver API](https://github.com/admc/wd#supported-methods)
+
+## Notes
+
 This is using a fork of cucumber that adds colorized output.
 
-Don't know if this will work on windows.
-
 http://behrang.github.io/presentations/cucumber/2013-03-12/ was extremely helpful.
+
+## Todo
+
+Figure out how to not have to start Phantom manually before running tests.
