@@ -23,7 +23,3 @@ A quick example showing how to use Cucumber.js with PhantomJS.
 This is using a fork of cucumber that adds colorized output.
 
 http://behrang.github.io/presentations/cucumber/2013-03-12/ was extremely helpful.
-
-## Todo
-
-Figure out how to not have to start Phantom manually before running tests.
