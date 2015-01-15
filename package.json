@@ -1,8 +1,9 @@
 {
   "devDependencies": {
-    "wd": "~0.2.6",
     "cucumber": "git://github.com/cucumber/cucumber-js.git#master",
     "grunt": "~0.4.1",
-    "grunt-cucumber": "~0.2.1"
+    "grunt-cucumber": "~0.2.1",
+    "grunt-phantom": "^0.2.1",
+    "wd": "~0.2.6"
   }
 }

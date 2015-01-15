@@ -1,6 +1,9 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    phantom: {
+      cucumber: {}
+    },
     cucumberjs: {
       files: 'features',
       options: {
@@ -11,6 +14,7 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-cucumber');
+  grunt.loadNpmTasks('grunt-phantom');
 
-  grunt.registerTask('default', ['cucumberjs']);
+  grunt.registerTask('default', ['phantom', 'cucumberjs']);
 };
